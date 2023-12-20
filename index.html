@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HelgaGraphiCode</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>QUIZ CLASS CODING</h1>
+    <input type="text" id="username" placeholder="Enter your name">
+    <button onclick="startQuiz()">Start Quiz</button>
+    <p id="question" style="display: none;">Question goes here</p>
+    <div id="options" class="options" style="display: none;">
+      <ul id="answer-options"></ul>
+    </div>
+    <p id="score" style="display: none;">Score: <span id="score-value">0</span></p>
+  </div>
+  
+  <script src="quiz.js"></script>  
+</body>
+</html>

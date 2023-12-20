@@ -1,0 +1,252 @@
+[
+    {
+        "question": "Apa yang dimaksud dengan variabel dalam pemrograman?",
+        "options": [
+            "Alat untuk menyimpan data dalam suatu tempat",
+            "Sebuah fungsi dalam program",
+            "Sebuah tipe data khusus dalam Python",
+            "Tipe data yang hanya bisa diakses sekali"
+        ],
+        "answer": "Alat untuk menyimpan data dalam suatu tempat"
+    },
+    {
+        "question": "Apa tugas dari struktur kontrol 'perulangan' dalam pemrograman?",
+        "options": [
+            "Menjalankan blok kode berulang kali selama kondisi terpenuhi",
+            "Mengatur aliran eksekusi program",
+            "Memeriksa kondisi yang diberikan",
+            "Memeriksa dua kondisi sekaligus"
+        ],
+        "answer": "Menjalankan blok kode berulang kali selama kondisi terpenuhi"
+    },
+    {
+        "question": "Algoritma apa yang digunakan untuk mengurutkan sejumlah data dengan menukar elemen-elemen yang berdekatan?",
+        "options": [
+            "Bubble Sort",
+            "Quick Sort",
+            "Merge Sort",
+            "Selection Sort"
+        ],
+        "answer": "Bubble Sort"
+    },
+    {
+        "question": "Dalam pemrograman, apa fungsi dari tipe data boolean?",
+        "options": [
+            "Menyimpan nilai numerik",
+            "Menyimpan nilai yang hanya bisa bernilai 'benar' atau 'salah'",
+            "Menyimpan nilai yang bersifat teks",
+            "Menyimpan nilai yang bersifat desimal"
+        ],
+        "answer": "Menyimpan nilai yang hanya bisa bernilai 'benar' atau 'salah'"
+    },
+    {
+        "question": "Apa yang dimaksud dengan struktur kontrol 'kondisional' dalam pemrograman?",
+        "options": [
+            "Struktur yang menjalankan blok kode berulang kali",
+            "Struktur untuk memeriksa kondisi dan melakukan tindakan berdasarkan hasilnya",
+            "Struktur untuk membuat variabel baru",
+            "Struktur yang memeriksa dua kondisi sekaligus"
+        ],
+        "answer": "Struktur untuk memeriksa kondisi dan melakukan tindakan berdasarkan hasilnya"
+    },
+    {
+        "question": "Apa yang dimaksud dengan 'inheritance' dalam konsep OOP?",
+        "options": [
+            "Kemampuan sebuah objek untuk berubah bentuk",
+            "Kemampuan objek untuk mewarisi sifat-sifat dari objek lain",
+            "Kemampuan objek untuk mengakses properti privat dari objek lain",
+            "Kemampuan objek untuk menambahkan sifat-sifat baru"
+        ],
+        "answer": "Kemampuan objek untuk mewarisi sifat-sifat dari objek lain"
+    },
+    {
+        "question": "Apa yang dilakukan oleh 'encapsulation' dalam OOP?",
+        "options": [
+            "Memeriksa kondisi dari suatu objek",
+            "Memastikan objek tidak dapat diubah setelah dibuat",
+            "Mengatur akses ke beberapa komponen dalam objek",
+            "Menyembunyikan informasi dari objek lain"
+        ],
+        "answer": "Menyembunyikan informasi dari objek lain"
+    },
+    {
+        "question": "Apa yang dimaksud dengan 'polymorphism' dalam OOP?",
+        "options": [
+            "Kemampuan sebuah objek untuk memiliki perilaku yang sama dengan objek lain",
+            "Kemampuan objek untuk berubah bentuk",
+            "Kemampuan sebuah objek untuk menggunakan semua metode dalam sebuah class",
+            "Kemampuan sebuah objek untuk mewarisi dari objek lain"
+        ],
+        "answer": "Kemampuan sebuah objek untuk memiliki perilaku yang sama dengan objek lain"
+    },
+    {
+        "question": "Apa yang dimaksud dengan 'class' dalam konsep OOP?",
+        "options": [
+            "Sebuah objek dalam pemrograman",
+            "Sebuah cetakan atau blueprint untuk membuat objek",
+            "Sebuah tipe data khusus dalam Python",
+            "Sebuah variabel dalam OOP"
+        ],
+        "answer": "Sebuah cetakan atau blueprint untuk membuat objek"
+    },
+    {
+        "question": "Apa yang dimaksud dengan 'object' dalam konsep OOP?",
+        "options": [
+            "Sebuah cetakan atau blueprint untuk membuat objek",
+            "Sebuah variabel dalam OOP",
+            "Sebuah tipe data khusus dalam Python",
+            "Sebuah instansi dari sebuah class"
+        ],
+        "answer": "Sebuah instansi dari sebuah class"
+    },
+    {
+        "question": "Apa peran dari HTML dalam pengembangan web?",
+        "options": [
+            "Mengatur tampilan dan desain halaman web",
+            "Menambahkan interaktivitas ke halaman web",
+            "Membuat struktur dasar halaman web",
+            "Mengatur logika bisnis di sisi server"
+        ],
+        "answer": "Membuat struktur dasar halaman web"
+    },
+    {
+        "question": "Apa fungsi dari CSS dalam pengembangan web?",
+        "options": [
+            "Mengatur tampilan dan desain halaman web",
+            "Membuat struktur dasar halaman web",
+            "Menambahkan interaktivitas ke halaman web",
+            "Mengatur logika bisnis di sisi server"
+        ],
+        "answer": "Mengatur tampilan dan desain halaman web"
+    },
+    {
+        "question": "Apa yang dilakukan JavaScript dalam pengembangan web?",
+        "options": [
+            "Mengatur tampilan dan desain halaman web",
+            "Membuat struktur dasar halaman web",
+            "Menambahkan interaktivitas dan manipulasi elemen halaman web",
+            "Mengatur logika bisnis di sisi server"
+        ],
+        "answer": "Menambahkan interaktivitas dan manipulasi elemen halaman web"
+    },
+    {
+        "question": "Bagaimana HTML, CSS, dan JavaScript berinteraksi dalam pengembangan web?",
+        "options": [
+            "HTML dan CSS mengatur tampilan, JavaScript mengontrol logika",
+            "HTML dan JavaScript mengatur tampilan, CSS mengontrol logika",
+            "CSS dan JavaScript mengatur tampilan, HTML mengontrol logika",
+            "HTML, CSS, dan JavaScript bertanggung jawab atas semua aspek halaman web"
+        ],
+        "answer": "HTML dan CSS mengatur tampilan, JavaScript mengontrol logika"
+    },
+    {
+        "question": "Apa yang dimaksud dengan 'manipulasi DOM' dalam pengembangan web?",
+        "options": [
+            "Pengaturan struktur halaman web",
+            "Pembaruan tampilan halaman web dengan JavaScript",
+            "Mengontrol tampilan halaman web dengan CSS",
+            "Memperbaiki bug pada halaman web"
+        ],
+        "answer": "Pembaruan tampilan halaman web dengan JavaScript"
+    },
+    {
+        "question": "Apa peran utama dari framework seperti React, Angular, atau Vue dalam pengembangan aplikasi web?",
+        "options": [
+            "Mengatur tampilan dan desain halaman web",
+            "Menambahkan interaktivitas ke halaman web",
+            "Memfasilitasi pembuatan antarmuka pengguna yang dinamis",
+            "Mengatur logika bisnis di sisi server"
+        ],
+        "answer": "Memfasilitasi pembuatan antarmuka pengguna yang dinamis"
+    },
+    {
+        "question": "Apa kegunaan dari pengembangan aplikasi mobile menggunakan React Native atau Flutter?",
+        "options": [
+            "Membuat aplikasi web yang interaktif",
+            "Membuat aplikasi mobile untuk platform Android dan iOS dengan kode yang sama atau hampir sama",
+            "Membuat aplikasi desktop yang responsif",
+            "Membuat aplikasi mobile yang hanya kompatibel dengan satu platform"
+        ],
+        "answer": "Membuat aplikasi mobile untuk platform Android dan iOS dengan kode yang sama atau hampir sama"
+    },
+    {
+        "question": "Apa perbedaan antara React Native dan Flutter dalam pengembangan aplikasi mobile?",
+        "options": [
+            "React Native menggunakan JavaScript, sedangkan Flutter menggunakan Dart",
+            "React Native hanya cocok untuk Android, sedangkan Flutter cocok untuk iOS",
+            "Flutter menggunakan JavaScript, sedangkan React Native menggunakan Dart",
+            "Flutter menggunakan JavaScript, sedangkan React Native menggunakan Swift"
+        ],
+        "answer": "React Native menggunakan JavaScript, sedangkan Flutter menggunakan Dart"
+    },
+    {
+        "question": "Bagaimana framework seperti React, Angular, atau Vue berbeda dari pengembangan backend?",
+        "options": [
+            "Framework-nya digunakan untuk pembuatan aplikasi di sisi klien (front-end), sedangkan pengembangan backend mengatur logika di sisi server",
+            "Framework-nya hanya digunakan untuk tampilan, sedangkan pengembangan backend mengatur interaktivitas",
+            "Framework-nya hanya untuk aplikasi mobile, sedangkan pengembangan backend untuk aplikasi web",
+            "Tidak ada perbedaan, semuanya sama dalam pengembangan aplikasi"
+        ],
+        "answer": "Framework-nya digunakan untuk pembuatan aplikasi di sisi klien (front-end), sedangkan pengembangan backend mengatur logika di sisi server"
+    },
+    {
+        "question": "Mengapa penggunaan framework seperti React, Angular, atau Vue dianggap mempermudah pengembangan aplikasi web?",
+        "options": [
+            "Karena mereka menggabungkan HTML, CSS, dan JavaScript dalam satu tempat",
+            "Karena mereka menyediakan struktur yang kuat untuk membangun aplikasi dengan fitur-fitur siap pakai",
+            "Karena mereka mengubah tampilan halaman web menjadi lebih menarik secara otomatis",
+            "Karena mereka menghilangkan kebutuhan akan bahasa pemrograman lain"
+        ],
+        "answer": "Karena mereka menyediakan struktur yang kuat untuk membangun aplikasi dengan fitur-fitur siap pakai"
+    },
+    {
+        "question": "Apa yang dimaksud dengan 'backend' dalam pengembangan perangkat lunak?",
+        "options": [
+            "Bagian aplikasi yang berurusan dengan tampilan dan desain",
+            "Bagian aplikasi yang bertanggung jawab atas logika bisnis, pemrosesan data, dan interaksi dengan server",
+            "Bagian aplikasi yang mengontrol interaktivitas dan manipulasi DOM",
+            "Bagian aplikasi yang hanya bertanggung jawab atas penyimpanan data"
+        ],
+        "answer": "Bagian aplikasi yang bertanggung jawab atas logika bisnis, pemrosesan data, dan interaksi dengan server"
+    },
+    {
+        "question": "Apa peran dari Node.js dalam pengembangan backend?",
+        "options": [
+            "Digunakan untuk membuat antarmuka pengguna yang dinamis",
+            "Digunakan untuk pengembangan aplikasi mobile",
+            "Digunakan untuk pengembangan server-side menggunakan JavaScript",
+            "Digunakan untuk manipulasi tampilan halaman web"
+        ],
+        "answer": "Digunakan untuk pengembangan server-side menggunakan JavaScript"
+    },
+    {
+        "question": "Apa perbedaan antara SQL dan NoSQL dalam penggunaan database?",
+        "options": [
+            "SQL menyimpan data dalam bentuk teks, sedangkan NoSQL menyimpan data dalam bentuk angka",
+            "SQL merupakan bahasa pemrograman, sedangkan NoSQL merupakan tipe data",
+            "SQL menggunakan skema yang terstruktur, sedangkan NoSQL lebih fleksibel dengan data tak terstruktur",
+            "SQL hanya bisa digunakan untuk aplikasi mobile, sedangkan NoSQL hanya untuk web"
+        ],
+        "answer": "SQL menggunakan skema yang terstruktur, sedangkan NoSQL lebih fleksibel dengan data tak terstruktur"
+    },
+    {
+        "question": "Apa peran dari SQL (seperti MySQL, PostgreSQL) dalam pengembangan backend?",
+        "options": [
+            "SQL hanya digunakan untuk mengatur tampilan halaman web",
+            "SQL digunakan untuk pengolahan data dan interaksi dengan database relasional",
+            "SQL hanya digunakan untuk membuat antarmuka pengguna yang dinamis",
+            "SQL digunakan untuk pengembangan aplikasi mobile"
+        ],
+        "answer": "SQL digunakan untuk pengolahan data dan interaksi dengan database relasional"
+    },
+    {
+        "question": "Apa keuntungan menggunakan bahasa pemrograman seperti Python (Flask, Django) atau Java (Spring) dalam pengembangan server-side?",
+        "options": [
+            "Memungkinkan pembuatan aplikasi mobile",
+            "Memudahkan pengaturan tampilan dan desain",
+            "Menyediakan struktur yang kuat untuk membangun aplikasi server-side",
+            "Mengubah tampilan halaman web menjadi lebih menarik secara otomatis"
+        ],
+        "answer": "Menyediakan struktur yang kuat untuk membangun aplikasi server-side"
+    }   
+]
