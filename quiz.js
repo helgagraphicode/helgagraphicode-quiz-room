@@ -66,7 +66,7 @@ function endQuiz() {
   const username = document.getElementById('username').value;
   const scoreValue = score;
 
-  const message = `NAMA: ${username}\nNILAI: ${scoreValue}\nwww.helgaweb.site`;
+  const message = `ID: ${username}\nNILAI: ${scoreValue}\nwww.helgaweb.site`;
   const webhookURL = 'https://discord.com/api/webhooks/1186674759434514483/4iCa8eF9V2EdeoKXFRqfwwVhP6AtTHqxZZwb7J0n0Ti2ei2A-H5ZUlbguV7mfqKqGg4y'; // Replace with your Discord webhook URL
 
   fetch(webhookURL, {
@@ -78,8 +78,8 @@ function endQuiz() {
       content: '',
       embeds: [
         {
-          title: '*HelgaGraphiCode*',
-          description: `NAMA: ${username}\nNILAI: ${scoreValue}\n"Jangan pernah menyerah, karena yang terbaik akan datang pada waktu yang tepat."`,
+          title: '**HelgaGraphiCode**',
+          description: `ID: ${username}\nNILAI: ${scoreValue}\n"Jangan pernah menyerah, karena yang terbaik akan datang pada waktu yang tepat."`,
           image: {
             url: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzViNHN5YWU4cTVyN3JtNmF1aDdqeDNubmY4dDhnMnB0dDNsZGFsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kMIydq55rRliFH5vWw/source.gif', // Ganti dengan URL gambar GIF Anda
           },
