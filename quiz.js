@@ -79,12 +79,12 @@ function endQuiz() {
       embeds: [
         {
           title: '*HelgaGraphiCode*',
-          description: `NAMA: ${username}\nHASIL NILAI ADALAH USAHA KERJA KERAS KAMU\nNILAI: ${scoreValue}\n"Jangan pernah menyerah, karena yang terbaik akan datang pada waktu yang tepat."`,
+          description: `NAMA: ${username}\nNILAI: ${scoreValue}\n"Jangan pernah menyerah, karena yang terbaik akan datang pada waktu yang tepat."`,
           image: {
             url: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzViNHN5YWU4cTVyN3JtNmF1aDdqeDNubmY4dDhnMnB0dDNsZGFsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kMIydq55rRliFH5vWw/source.gif', // Ganti dengan URL gambar GIF Anda
           },
           footer: {
-            text: '*www.helgaweb.site*',
+            text: 'www.helgaweb.site',
           } 
         },
       ],
