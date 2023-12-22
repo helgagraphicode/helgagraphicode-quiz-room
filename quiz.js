@@ -39,7 +39,7 @@ function checkAnswer(answerIndex) {
   } else {
     endQuiz();
   }
-}
+} // Menambahkan kurung kurawal penutup untuk fungsi checkAnswer()
 
 function startQuiz() {
   const username = document.getElementById('username').value;
