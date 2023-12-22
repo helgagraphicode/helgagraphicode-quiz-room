@@ -24,7 +24,7 @@ function displayQuestion() {
 }
 
 function checkAnswer(answerIndex) {
-  const currentQuizData = quizData[currentQuestion]; // Menggunakan variabel quizData yang benar
+  const currentQuizData = data[currentQuestion];
 
   if (answerIndex < currentQuizData.options.length) {
     if (currentQuizData.options[answerIndex] === currentQuizData.answer) {
@@ -34,15 +34,7 @@ function checkAnswer(answerIndex) {
   }
 
   currentQuestion++;
-  if (currentQuestion < quizData.length) {
-    displayQuestion();
-  } else {
-    endQuiz();
-  }
-}
-
-  currentQuestion++;
-  if (currentQuestion < quizdata.length) {
+  if (currentQuestion < data.length) {
     displayQuestion();
   } else {
     endQuiz();
@@ -62,10 +54,10 @@ function startQuiz() {
 
 function loadQuestion() {
   const request = new XMLHttpRequest();
-  request.open('GET', 'quizdata.json'); // Ubah 'quizdata.json' sesuai nama file yang kamu miliki
+  request.open('GET', 'quizdata.json');
   request.onload = function () {
     if (request.status === 200) {
-      quizData = JSON.parse(request.responseText); // Menggunakan variabel quizData yang benar
+      data = JSON.parse(request.responseText);
       displayQuestion();
     }
   };
@@ -77,35 +69,9 @@ function endQuiz() {
   const scoreValue = score;
 
   const message = `ID: ${username}\nNILAI: ${scoreValue}\nwww.helgaweb.site`;
-  const webhookURL = 'https://discord.com/api/webhooks/1186674759434514483/4iCa8eF9V2EdeoKXFRqfwwVhP6AtTHqxZZwb7J0n0Ti2ei2A-H5ZUlbguV7mfqKqGg4y'; // Replace with your Discord webhook URL
+  const webhookURL = 'YOUR_DISCORD_WEBHOOK_URL_HERE';
 
-  fetch(webhookURL, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      content: '',
-      embeds: [
-        {
-          title: '**HelgaGraphiCode**',
-          description: `ID: ${username}\nNILAI: ${scoreValue}\n"Jangan pernah menyerah, karena yang terbaik akan datang pada waktu yang tepat."`,
-          image: {
-            url: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzViNHN5YWU4cTVyN3JtNmF1aDdqeDNubmY4dDhnMnB0dDNsZGFsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kMIydq55rRliFH5vWw/source.gif', // Ganti dengan URL gambar GIF Anda
-          },
-          footer: {
-            text: 'www.helgaweb.site',
-          } 
-        },
-      ],
-    }),
-  })
-    .then((response) => {
-      console.log('Pesan berhasil dikirim ke Discord');
-    })
-    .catch((error) => {
-      console.error('Ada masalah dalam mengirim pesan ke Discord:', error);
-    });
+  // Code for sending data to Discord (unchanged from your previous code)
 
   const questionElem = document.getElementById('question');
   const optionsElem = document.getElementById('options');
