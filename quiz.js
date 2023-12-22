@@ -24,21 +24,30 @@ function displayQuestion() {
 }
 
 function checkAnswer(answerIndex) {
-  const currentQuizData = data[currentQuestion];
+  const currentQuizData = quizData[currentQuestion]; // Menggunakan variabel quizData yang benar
 
-  if (currentQuizData.options[answerIndex] === currentQuizData.answer) {
-    score += 2; // Mengubah penambahan skor dari 1 menjadi 4
-    document.getElementById('score-value').textContent = score;
+  if (answerIndex < currentQuizData.options.length) {
+    if (currentQuizData.options[answerIndex] === currentQuizData.answer) {
+      score += 4;
+      document.getElementById('score-value').textContent = score;
+    }
   }
 
   currentQuestion++;
-  if (currentQuestion < data.length) {
+  if (currentQuestion < quizData.length) {
     displayQuestion();
   } else {
     endQuiz();
   }
 }
 
+  currentQuestion++;
+  if (currentQuestion < quizdata.length) {
+    displayQuestion();
+  } else {
+    endQuiz();
+  }
+}
 
 function startQuiz() {
   const username = document.getElementById('username').value;
@@ -53,10 +62,10 @@ function startQuiz() {
 
 function loadQuestion() {
   const request = new XMLHttpRequest();
-  request.open('GET', 'quizdata.json');
+  request.open('GET', 'quizdata.json'); // Ubah 'quizdata.json' sesuai nama file yang kamu miliki
   request.onload = function () {
     if (request.status === 200) {
-      data = JSON.parse(request.responseText);
+      quizData = JSON.parse(request.responseText); // Menggunakan variabel quizData yang benar
       displayQuestion();
     }
   };
