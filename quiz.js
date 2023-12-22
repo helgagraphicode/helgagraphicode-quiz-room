@@ -75,7 +75,7 @@ function endQuiz() {
   const scoreValue = score;
 
   const message = `ID: ${username}\nNILAI: ${scoreValue}\nwww.helgaweb.site`;
-  const webhookURL = 'YOUR_DISCORD_WEBHOOK_URL_HERE';
+  const webhookURL = 'https://discord.com/api/webhooks/1186674759434514483/4iCa8eF9V2EdeoKXFRqfwwVhP6AtTHqxZZwb7J0n0Ti2ei2A-H5ZUlbguV7mfqKqGg4y';
 
   // Code for sending data to Discord (unchanged from your previous code)
 
