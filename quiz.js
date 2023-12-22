@@ -9,6 +9,9 @@ function displayQuestion() {
   const currentQuizData = data[currentQuestion];
   questionElem.innerText = currentQuizData.question;
 
+  const startButton = document.querySelector('button'); // Mendapatkan tombol "Start Quiz"
+  startButton.style.display = 'none'; // Menyembunyikan tombol "Start Quiz"
+
   optionsElem.innerHTML = '';
   currentQuizData.options.forEach((option, index) => {
     const listItem = document.createElement('li');
