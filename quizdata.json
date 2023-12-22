@@ -248,5 +248,255 @@
             "Mengubah tampilan halaman web menjadi lebih menarik secara otomatis"
         ],
         "answer": "Menyediakan struktur yang kuat untuk membangun aplikasi server-side"
-    }   
+    },   
+    {
+        "question": "1. Apa yang dimaksud dengan enkripsi?",
+        "options": [
+            "Proses mengubah data menjadi format yang tidak terbaca tanpa kunci dekripsi yang sesuai",
+            "Proses membersihkan data mentah",
+            "Proses memvalidasi input pengguna",
+            "Proses membuat salinan data untuk keamanan"
+        ],
+        "answer": "Proses mengubah data menjadi format yang tidak terbaca tanpa kunci dekripsi yang sesuai"
+    },
+    {
+        "question": "2. Apa yang dimaksud dengan sanitasi input?",
+        "options": [
+            "Proses membersihkan data mentah atau input pengguna untuk mencegah serangan",
+            "Proses enkripsi data sensitif",
+            "Proses validasi data mentah",
+            "Proses membuat cadangan data"
+        ],
+        "answer": "Proses membersihkan data mentah atau input pengguna untuk mencegah serangan"
+    },
+    {
+        "question": "3. Mengapa enkripsi penting dalam keamanan perangkat lunak?",
+        "options": [
+            "Untuk membuat data tidak terbaca saat disimpan",
+            "Untuk mengubah data menjadi format yang lebih mudah dibaca",
+            "Untuk meningkatkan performa perangkat lunak",
+            "Untuk mengenkripsi perangkat lunak itu sendiri"
+        ],
+        "answer": "Untuk membuat data tidak terbaca saat disimpan"
+    },
+    {
+        "question": "4. Apa itu perlindungan terhadap serangan umum pada perangkat lunak?",
+        "options": [
+            "Langkah-langkah untuk mencegah data mentah dari pengguna",
+            "Upaya untuk mencegah serangan umum seperti SQL injection, XSS, dll.",
+            "Proses enkripsi data sensitif",
+            "Upaya untuk mengubah format data menjadi lebih mudah dibaca"
+        ],
+        "answer": "Upaya untuk mencegah serangan umum seperti SQL injection, XSS, dll."
+    },
+    {
+        "question": "5. Mengapa penting melakukan sanitasi input pada perangkat lunak?",
+        "options": [
+            "Untuk meningkatkan kinerja perangkat lunak",
+            "Untuk mencegah serangan seperti SQL injection dan XSS",
+            "Untuk membuat input lebih rumit",
+            "Untuk membuat data lebih terbaca"
+        ],
+        "answer": "Untuk mencegah serangan seperti SQL injection dan XSS"
+    },
+    {
+        "question": "1. Apa peran utama dari library Pandas dalam pemrosesan data dengan Python?",
+        "options": [
+            "Memfasilitasi analisis statistik",
+            "Membuat visualisasi 3D",
+            "Membuat aplikasi mobile",
+            "Mengatur aliran logika dalam program"
+        ],
+        "answer": "Memfasilitasi analisis statistik"
+    },
+    {
+        "question": "2. Apa yang membedakan NumPy dan Pandas dalam pengolahan data?",
+        "options": [
+            "NumPy lebih fokus pada manipulasi array numerik, sedangkan Pandas pada struktur data tabular",
+            "NumPy lebih fokus pada visualisasi data, sedangkan Pandas pada pemrosesan bahasa alami",
+            "NumPy hanya untuk pemula, sedangkan Pandas untuk pengembang berpengalaman",
+            "NumPy digunakan untuk pengembangan game, sedangkan Pandas untuk aplikasi web"
+        ],
+        "answer": "NumPy lebih fokus pada manipulasi array numerik, sedangkan Pandas pada struktur data tabular"
+    },
+    {
+        "question": "3. Apa itu analisis statistik?",
+        "options": [
+            "Proses menganalisis data mentah untuk mendapatkan wawasan",
+            "Proses mengenkripsi data sensitif",
+            "Proses membersihkan input pengguna",
+            "Proses membuat salinan data untuk keamanan"
+        ],
+        "answer": "Proses menganalisis data mentah untuk mendapatkan wawasan"
+    },
+    {
+        "question": "4. Apa kegunaan utama dari R dalam analisis statistik?",
+        "options": [
+            "Mengelola database",
+            "Membuat aplikasi mobile",
+            "Memfasilitasi pembelajaran mesin",
+            "Menyediakan lingkungan statistik dan grafis yang kuat"
+        ],
+        "answer": "Menyediakan lingkungan statistik dan grafis yang kuat"
+    },
+    {
+        "question": "5. Mengapa penting melakukan pemrosesan data sebelum analisis statistik?",
+        "options": [
+            "Agar data bisa dienkripsi",
+            "Agar data tidak bisa dibaca",
+            "Agar data siap dan bersih untuk analisis",
+            "Agar data bisa disalin"
+        ],
+        "answer": "Agar data siap dan bersih untuk analisis"
+    },
+    {
+        "question": "1. Apa yang membedakan Unity dan Unreal Engine dalam pengembangan game?",
+        "options": [
+            "Unity lebih fokus pada game 2D, sedangkan Unreal Engine pada game 3D",
+            "Unity hanya mendukung game mobile, sedangkan Unreal Engine untuk desktop",
+            "Unity hanya untuk pemula, sedangkan Unreal Engine untuk pengembang berpengalaman",
+            "Unity digunakan untuk game mobile, sedangkan Unreal Engine untuk pengembangan web"
+        ],
+        "answer": "Unity lebih fokus pada game 2D, sedangkan Unreal Engine pada game 3D"
+    },
+    {
+        "question": "2. Apa peran utama dari Unity dalam pengembangan game?",
+        "options": [
+            "Membuat visualisasi 3D yang realistis",
+            "Membuat grafis vektor untuk aplikasi mobile",
+            "Membuat skrip dan interaksi yang kompleks dalam game",
+            "Membuat permainan AR/VR"
+        ],
+        "answer": "Membuat skrip dan interaksi yang kompleks dalam game"
+    },
+    {
+        "question": "3. Apa kelebihan utama dari penggunaan Unreal Engine dalam pengembangan game?",
+        "options": [
+            "Memiliki lingkungan pengembangan yang intuitif",
+            "Cocok untuk pengembangan game 2D",
+            "Dapat digunakan untuk membuat aplikasi mobile",
+            "Hanya digunakan untuk game FPS"
+        ],
+        "answer": "Memiliki lingkungan pengembangan yang intuitif"
+    },
+    {
+        "question": "4. Apa itu game engine?",
+        "options": [
+            "Perangkat keras untuk menjalankan game",
+            "Perangkat lunak yang menyediakan berbagai fitur untuk membangun game",
+            "Istilah yang sama dengan game developer",
+            "Proses untuk mengenkripsi game"
+        ],
+        "answer": "Perangkat lunak yang menyediakan berbagai fitur untuk membangun game"
+    },
+    {
+        "question": "5. Mengapa penting memilih platform yang tepat dalam pengembangan game?",
+        "options": [
+            "Tidak penting, semua platform memiliki kelebihan yang sama",
+            "Untuk menghemat biaya pengembangan",
+            "Agar game dapat diakses oleh sebanyak mungkin pengguna",
+            "Untuk menghindari penggunaan engine yang kompleks"
+        ],
+        "answer": "Agar game dapat diakses oleh sebanyak mungkin pengguna"
+    },
+    {
+        "question": "1. Apa fungsi utama dari library TensorFlow dalam pembelajaran mesin?",
+        "options": [
+            "Mengelola database besar",
+            "Memfasilitasi manipulasi array numerik",
+            "Mengembangkan game AI",
+            "Memfasilitasi pembuatan dan pelatihan model neural networks"
+        ],
+        "answer": "Memfasilitasi pembuatan dan pelatihan model neural networks"
+    },
+    {
+        "question": "2. Apa yang membedakan TensorFlow dan PyTorch dalam pengembangan AI?",
+        "options": [
+            "PyTorch lebih fokus pada pembuatan game AI, sedangkan TensorFlow pada analisis statistik",
+            "TensorFlow hanya mendukung pembelajaran mesin, sedangkan PyTorch untuk kecerdasan buatan",
+            "TensorFlow memiliki graf pemrograman statis, sedangkan PyTorch memiliki graf pemrograman dinamis",
+            "PyTorch hanya untuk pemula, sedangkan TensorFlow untuk pengembang berpengalaman"
+        ],
+        "answer": "TensorFlow memiliki graf pemrograman statis, sedangkan PyTorch memiliki graf pemrograman dinamis"
+    },
+    {
+        "question": "3. Apa peran utama dari PyTorch dalam pengembangan kecerdasan buatan?",
+        "options": [
+            "Mengelola database",
+            "Membuat aplikasi mobile",
+            "Memfasilitasi pembelajaran mesin",
+            "Menyediakan lingkungan statistik dan grafis yang kuat"
+        ],
+        "answer": "Menyediakan lingkungan statistik dan grafis yang kuat"
+    },
+    {
+        "question": "4. Mengapa neural networks digunakan dalam pembelajaran mesin?",
+        "options": [
+            "Untuk menyimpan data secara aman",
+            "Untuk memfasilitasi analisis statistik",
+            "Untuk membuat prediksi dan pengambilan keputusan",
+            "Untuk mengatur tampilan aplikasi"
+        ],
+        "answer": "Untuk membuat prediksi dan pengambilan keputusan"
+    },
+    {
+        "question": "5. Apa kegunaan utama dari pembelajaran mesin dalam aplikasi sehari-hari?",
+        "options": [
+            "Mengelola basis data",
+            "Memfasilitasi pembuatan visualisasi data",
+            "Memproses pembayaran online",
+            "Meningkatkan performa perangkat lunak"
+        ],
+        "answer": "Memproses pembayaran online"
+    },
+    {
+        "question": "1. Apa yang dimaksud dengan pengujian fungsional dalam pengembangan perangkat lunak?",
+        "options": [
+            "Menguji interaksi antara komponen perangkat lunak",
+            "Menguji fungsi atau fitur perangkat lunak secara terisolasi",
+            "Menguji performa perangkat lunak dalam kondisi nyata",
+            "Menguji kemampuan perangkat lunak untuk menangani beban pengguna"
+        ],
+        "answer": "Menguji fungsi atau fitur perangkat lunak secara terisolasi"
+    },
+    {
+        "question": "2. Apa manfaat utama dari alat manajemen versi seperti Git?",
+        "options": [
+            "Membuat game 3D",
+            "Membantu dalam pengujian fungsional",
+            "Memudahkan kolaborasi, pelacakan revisi, dan manajemen proyek",
+            "Meningkatkan kecepatan komputasi pada pembelajaran mesin"
+        ],
+        "answer": "Memudahkan kolaborasi, pelacakan revisi, dan manajemen proyek"
+    },
+    {
+        "question": "3. Apa peran pengujian integrasi dalam siklus pengujian perangkat lunak?",
+        "options": [
+            "Menguji fungsi atau fitur perangkat lunak secara terisolasi",
+            "Menguji interaksi antara komponen perangkat lunak",
+            "Menguji performa perangkat lunak dalam kondisi nyata",
+            "Menguji kemampuan perangkat lunak untuk menangani beban pengguna"
+        ],
+        "answer": "Menguji interaksi antara komponen perangkat lunak"
+    },
+    {
+        "question": "4. Apa yang dilakukan dalam uji regresi?",
+        "options": [
+            "Menguji interaksi antara komponen perangkat lunak",
+            "Menguji fungsi atau fitur perangkat lunak secara terisolasi",
+            "Menguji performa perangkat lunak dalam kondisi nyata",
+            "Menguji kemampuan perangkat lunak untuk menangani beban pengguna"
+        ],
+        "answer": "Menguji fungsi atau fitur perangkat lunak secara terisolasi"
+    },
+    {
+        "question": "5. Mengapa manajemen versi penting dalam pengembangan perangkat lunak?",
+        "options": [
+            "Untuk meningkatkan kecepatan komputasi",
+            "Agar kode dapat dikelola, dipantau, dan dikontrol perubahannya",
+            "Hanya untuk mencatat sejarah perubahan kode",
+            "Untuk menghindari pengujian fungsional"
+        ],
+        "answer": "Agar kode dapat dikelola, dipantau, dan dikontrol perubahannya"
+    }
 ]
