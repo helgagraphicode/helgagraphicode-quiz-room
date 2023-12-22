@@ -45,7 +45,7 @@ function startQuiz() {
   const username = document.getElementById('username').value;
   if (username) {
     document.getElementById('username').style.display = 'none';
-    document.querySelector('button').style.display = 'none';
+    document.querySelector('button').addEventListener('click', startQuiz);
     loadQuestion();
   } else {
     alert('Please enter your name to start the quiz.');
