@@ -60,6 +60,8 @@ function loadQuestion() {
     if (request.status === 200) {
       data = JSON.parse(request.responseText);
       displayQuestion();
+      // Mengubah tampilan tombol Start Quiz menjadi none setelah kuis dimulai
+      document.querySelector('button').style.display = 'none';
     }
   };
   request.send();
