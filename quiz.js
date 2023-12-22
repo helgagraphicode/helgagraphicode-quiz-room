@@ -39,13 +39,14 @@ function checkAnswer(answerIndex) {
   } else {
     endQuiz();
   }
+
 } // Menambahkan kurung kurawal penutup untuk fungsi checkAnswer()
 
 function startQuiz() {
   const username = document.getElementById('username').value;
   if (username) {
     document.getElementById('username').style.display = 'none';
-    document.querySelector('button').addEventListener('click', startQuiz);
+    document.querySelector('button').removeEventListener('click', startQuiz); // Menghapus event listener yang ditambahkan sebelumnya
     loadQuestion();
   } else {
     alert('Please enter your name to start the quiz.');
@@ -78,4 +79,6 @@ function endQuiz() {
 
   questionElem.innerText = `Quiz finished! Your score is: ${score}`;
   optionsElem.innerHTML = '';
+
+  // Additional logic or actions you want to perform after the quiz ends
 }
