@@ -77,7 +77,30 @@ function endQuiz() {
   const message = `ID: ${username}\nNILAI: ${scoreValue}\nwww.helgaweb.site`;
   const webhookURL = 'https://discord.com/api/webhooks/1186674759434514483/4iCa8eF9V2EdeoKXFRqfwwVhP6AtTHqxZZwb7J0n0Ti2ei2A-H5ZUlbguV7mfqKqGg4y';
 
-  // Code for sending data to Discord (unchanged from your previous code)
+  const payload = {
+    content: message
+  };
+
+  fetch(webhookURL, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(payload)
+  })
+  .then(response => {
+    if (response.ok) {
+      console.log('Pesan terkirim ke Discord');
+      // Lakukan tindakan lain jika pesan berhasil terkirim
+    } else {
+      console.error('Gagal mengirim pesan ke Discord');
+      // Lakukan tindakan jika pesan gagal terkirim
+    }
+  })
+  .catch(error => {
+    console.error('Terjadi kesalahan:', error);
+    // Lakukan tindakan jika terjadi kesalahan
+  });
 
   const questionElem = document.getElementById('question');
   const optionsElem = document.getElementById('options');
