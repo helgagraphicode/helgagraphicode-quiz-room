@@ -27,7 +27,7 @@ function checkAnswer(answerIndex) {
   const currentQuizData = data[currentQuestion];
 
   if (currentQuizData.options[answerIndex] === currentQuizData.answer) {
-    score++;
+    score += 2; // Mengubah penambahan skor dari 1 menjadi 4
     document.getElementById('score-value').textContent = score;
   }
 
@@ -38,6 +38,7 @@ function checkAnswer(answerIndex) {
     endQuiz();
   }
 }
+
 
 function startQuiz() {
   const username = document.getElementById('username').value;
